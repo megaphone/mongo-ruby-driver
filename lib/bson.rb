@@ -1,6 +1,7 @@
 # encoding: UTF-8
 
 $:.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+$:.unshift(File.join(File.dirname(__FILE__), '..', 'ext'))
 
 MINIMUM_BSON_EXT_VERSION = "1.1.4"
 
